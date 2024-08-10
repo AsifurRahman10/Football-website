@@ -80,3 +80,32 @@ header{
     padding: 10px 20px;
 }
 /* header banner ends */
+/* main card container starts */
+.card-container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    width: 75%;
+    margin: 50px auto;
+    gap: 30px;
+}
+.card{
+    width: 80%;
+    padding: 15px;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px;
+}
+.card:hover{
+    border: 5px solid #67418876;
+}
+.card img{
+    width: 100%;
+    object-fit: cover;
+}
+.card h2{
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+.card p{
+    color: rgba(108, 108, 108, 1);
+
+}
+/* main card container ends */
