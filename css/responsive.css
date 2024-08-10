@@ -1,6 +1,6 @@
 /* mobile design */
 @media screen and (max-width: 576px) {
-    .nav-bar,.header-banner{
+    .nav-bar,.header-banner,.card-container, .highlight{
         width: 90%;
     }
     .nav-list{
@@ -27,5 +27,23 @@
     }
     .header-image img{
         height: 100%;
+    }
+    .card-container{
+        grid-template-columns: 1fr;
+    }
+    .card{
+        width: 100%;
+    }
+    .highlight{
+        flex-direction: column;
+        gap: 20px;
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+    .highlight-text{
+        width: 100%;
+    }
+    .highlight-img{
+        width: 100%;
     }
 }
