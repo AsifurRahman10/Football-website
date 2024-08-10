@@ -1,0 +1,31 @@
+/* mobile design */
+@media screen and (max-width: 576px) {
+    .nav-bar,.header-banner{
+        width: 90%;
+    }
+    .nav-list{
+        display: none;
+    }
+    .nav-bar i{
+        display: block;
+        color: white;
+        font-size: 1.5rem;
+    }
+    .nav-login button{
+        padding: 3px 20px;
+    }  
+    .header-banner{
+        flex-direction: column;
+        margin-top: 20px;
+        gap: 50px;
+    }
+    .header-text{
+        width: 100%;
+    }
+    .header-text h1{
+        font-size: 3rem;
+    }
+    .header-image img{
+        height: 100%;
+    }
+}
